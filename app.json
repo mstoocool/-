@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/index",
+    "pages/setting/index",
+    "pages/games/index",
+    "pages/gamesList/index",
+    "pages/glList/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#666",
+    "selectedColor":"#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "找厕所",
+        "iconPath":"images/c.png",
+        "selectedIconPath":"images/c1.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "笑话",
+        "iconPath": "images/z.png",
+        "selectedIconPath": "images/z1.png"
+      },
+      {
+        "pagePath": "pages/games/index",
+        "text": "游戏",
+        "iconPath": "images/z.png",
+        "selectedIconPath": "images/z1.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置",
+        "iconPath": "images/s.png",
+        "selectedIconPath": "images/s1.png"
+      }
+    ]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"我们需要获取你的同意才可以帮你找厕所"
+    }
+  }
+}

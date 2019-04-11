@@ -1,0 +1,19 @@
+<view class='pages'>
+  <view class="cu-card article no-card margin-top-sm" wx:for="{{list}}"  wx:key bindtap='glList' data-id='{{item.id}}'>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">{{gameName}}</view>
+    </view> 
+    <view class="content">
+      <view class="desc">
+        <view class="text-content"> {{item.title}}</view>
+        <view class='time-content'>
+           {{item.time}}
+          </view>
+        <view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

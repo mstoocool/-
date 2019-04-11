@@ -1,0 +1,17 @@
+<view class='pages'>
+  <view class="cu-card article no-card margin-top-sm">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">{{list.title}}</view>
+    </view>
+    <view class="content">
+      <view class="desc">
+        <view class="text-content"> {{list.content}}</view>
+        <view class="time-content"> {{list.time}}</view>
+        <view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 
+</view>
